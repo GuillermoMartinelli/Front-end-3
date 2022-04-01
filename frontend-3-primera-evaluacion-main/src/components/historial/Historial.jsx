@@ -8,7 +8,7 @@ class Historial extends Component{
                 <h3>Seleccion anterior:{seleccionAnterior}</h3>
                 <h4>Historial de opciones elegidas:</h4>
                 <ul>
-                    {historial + ""}
+                    {historial}
                 </ul>
             </div>
         )

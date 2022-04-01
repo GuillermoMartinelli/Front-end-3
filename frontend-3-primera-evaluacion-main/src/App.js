@@ -89,7 +89,11 @@ class App extends React.Component {
         />
         <Historial
           seleccionAnterior={this.state.seleccionAnterior}
-          historial={this.state.historial}
+          historial={this.state.historial.map(
+            (e, index) => (
+              <li key={index}>{e}</li>
+            ),
+          )}
         />
       </div>
     );
